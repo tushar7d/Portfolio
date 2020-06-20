@@ -1,15 +1,16 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
+import SectionContainer from '../components/SectionContainer'
 
 const AboutSection = () => (
-  <div sx={{ maxWidth: ["98%","80%"], mx: "auto", mt: ["5vh","30vh"] }}>
+  <SectionContainer mt={[80,300]}>
     <h1 sx={{ fontSize: 6 }}>Hello</h1>
     <p sx={{ fontSize: 4 }}>
       I am Tushar Debnath a Product designer & Design technologist living in New
       Delhi. Currently I am building consumer travel products and internal
       design tools at Expedia.
     </p>
-  </div>
+  </SectionContainer>
 );
 
 export default AboutSection;

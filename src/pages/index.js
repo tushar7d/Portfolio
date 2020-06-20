@@ -7,6 +7,7 @@ import AboutSection from "../IndexPageSections/AboutSection";
 const IndexPage = () => (
   <Container>
     <AboutSection />
+    
   </Container>
 );
 
