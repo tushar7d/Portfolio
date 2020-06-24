@@ -9,7 +9,7 @@ import {
 } from "../IndexPageSections";
 import SectionContainer from "../components/SectionContainer";
 
-import TwoColumnGrid from '../components/TwoColumnGrid';
+import Grid from '../components/Grid';
 
 const IndexPage = () => (
   <React.Fragment>
@@ -22,11 +22,11 @@ const IndexPage = () => (
     </div>
     <Container>
       <AboutSection />
-      <TwoColumnGrid
+      <Grid column={3}
       >
         <WritingSection />
         <PortfolioSection />
-      </TwoColumnGrid>
+      </Grid >
     </Container>
   </React.Fragment>
 );
