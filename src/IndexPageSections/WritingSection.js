@@ -6,7 +6,7 @@ import SectionListItem from "../components/SectionListItem";
 
 const WritingSection = () => (
   <SectionContainer mt={50}>
-    <SectionList heading="Blog">
+    <SectionList heading="Writing">
       <SectionListItem
         heading="How I created a Figma plugin to automate our design system migration."
         sub="Medium Article"

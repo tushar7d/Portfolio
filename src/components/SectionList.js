@@ -5,7 +5,7 @@ import React from "react"
 
 const SectionList = (props) => (
     <React.Fragment>
-    <h2 sx={{ fontSize: 4,fontWeight:"heading" }}>{props.heading}</h2>
+    <h2 sx={{ fontSize: 4,fontWeight:"heading", mb: 16 }}>{props.heading}</h2>
     {props.children}
     </React.Fragment>
 

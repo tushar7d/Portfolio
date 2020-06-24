@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 
 const SectionListItem = (props) => (
-  <a href={props.link} target="_blank" sx={{ mt: 16 }}>
+  <a href={props.link} target="_blank" >
     <div
       sx={{
         fontSize: 3,
@@ -15,7 +15,7 @@ const SectionListItem = (props) => (
     >
       {props.heading}
     </div>
-    <div>{props.sub}</div>
+    <div sx={{mb: 12,}}>{props.sub}</div>
   </a>
 );
 
