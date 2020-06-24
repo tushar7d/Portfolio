@@ -7,7 +7,6 @@ const SectionListItem = (props) => (
       sx={{
         fontSize: 3,
         fontWeight: "500",
-        
         ":hover": {
           color: "blue",
         },

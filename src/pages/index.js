@@ -22,11 +22,16 @@ const IndexPage = () => (
     </div>
     <Container>
       <AboutSection />
-      <Grid column={3}
-      >
-        <WritingSection />
-        <PortfolioSection />
-      </Grid >
+      
+      {/**
+       * 
+       * <PortfolioSection />
+       *<WritingSection />
+       */}
+        
+      
+        
+    
     </Container>
   </React.Fragment>
 );

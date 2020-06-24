@@ -5,9 +5,9 @@ const Grid = (props) =>(
     <div
         sx={{
           display: "grid",
-          gridTemplateColumns: `repeat(${props.column? props.column: 2}, 1fr)`,
+          gridTemplateColumns: `repeat(2, 1fr)`,
           gridTemplateRows: "1fr",
-          gridColumnGap: "24px",
+          gridColumnGap: "48px",
         }}
     >{props.children}</div>
 )
