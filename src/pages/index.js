@@ -5,11 +5,10 @@ import Container from "../components/Container";
 import {
   AboutSection,
   WritingSection,
-  PortfolioSection,
+ 
 } from "../IndexPageSections";
 import SectionContainer from "../components/SectionContainer";
 
-import Grid from '../components/Grid';
 
 const IndexPage = () => (
   <React.Fragment>
@@ -22,16 +21,7 @@ const IndexPage = () => (
     </div>
     <Container>
       <AboutSection />
-      
-      {/**
-       * 
-       * <PortfolioSection />
-       *<WritingSection />
-       */}
-        
-      
-        
-    
+      <WritingSection />
     </Container>
   </React.Fragment>
 );

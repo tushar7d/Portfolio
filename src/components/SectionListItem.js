@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 
 const SectionListItem = (props) => (
-  <a href={props.link} target="_blank" >
+  <a href={props.link ? props.link :"/"} target="_blank" rel="noreferrer" >
     <div
       sx={{
         fontSize: 3,
