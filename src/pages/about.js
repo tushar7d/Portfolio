@@ -10,13 +10,22 @@ const IndexPage = () => (
   <React.Fragment>
     
     <Container>
-      <SectionContainer mt={[80, "30vh"]}>
-      <h1 sx={{ fontSize: 6, fontWeight: "heading" }}>About Me</h1>
+      <SectionContainer mt={[80, "10vh"]}>
+      <h1 sx={{ fontSize: 5, fontWeight: "heading" }}>About Me</h1>
       <p sx={{ fontSize: 4 }}>
-      I am Tushar Debnath a Product designer & Design technologist living in New
-      Delhi. Currently I am building consumer travel products and internal
-      design tools at Expedia. When I am not Designing or Coding,
-      You can find me reading books, making music, and occasionally  travelling with my wife.
+      I have been 
+    </p>
+      </SectionContainer>
+      <SectionContainer mt={24}>
+      <h1 sx={{ fontSize: 3, fontWeight: "heading" }}>Proffesional Experience</h1>
+      <p sx={{ fontSize: 2 }}>
+      I have been 
+    </p>
+      </SectionContainer>
+      <SectionContainer mt={24}>
+      <h1 sx={{ fontSize: 3, fontWeight: "heading" }}>Education</h1>
+      <p sx={{ fontSize: 2 }}>
+      I have been 
     </p>
       </SectionContainer>
     </Container>
