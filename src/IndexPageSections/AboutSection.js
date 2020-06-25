@@ -12,7 +12,7 @@ const AboutSection = () => (
       design tools at Expedia. When I am not designing or coding, you can find
       me reading books, making music, and occasionally travelling with my wife.
     </p>
-    <Link to="/about" sx={{ fontSize: 3, mt: "18px", color: "blue" }}>
+    <Link to="/about" sx={{ fontSize: 3, mt: "18px", color: "blue", mb:"24px" }}>
       Know more about me
     </Link>
   </SectionContainer>

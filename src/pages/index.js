@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui";
+import { jsx, Grid } from "theme-ui";
 import React from "react";
 import Container from "../components/Container";
 import {
@@ -21,9 +21,11 @@ const IndexPage = () => (
     </div>
     <Container>
       <AboutSection />
-      <WritingSection />
-      <FigmaPlugin />
-      <PortfolioSection />
+      <div sx={{display:"grid", gridTemplateColumns:["repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"], gridGap:"12px", mt:44}}>
+        <div sx={{backgroundColor:"#f5f5f5",size: "100%", height: "300px"}} />
+        <div sx={{backgroundColor:"#f5f5f5", width:"100%", height: "300px"}} />
+        <div sx={{backgroundColor:"#f5f5f5", width:"100%", height: "300px"}} />
+      </div>
     </Container>
   </React.Fragment>
 );
