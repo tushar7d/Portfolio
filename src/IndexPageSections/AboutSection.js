@@ -4,7 +4,7 @@ import SectionContainer from "../components/SectionContainer";
 import { Link } from "gatsby";
 
 const AboutSection = () => (
-  <SectionContainer mt={[80, "35vh"]}>
+  <SectionContainer mt={[80, "30vh"]}>
     <h1 sx={{ fontSize: 6, fontWeight: "heading" }}>Hello</h1>
     <p sx={{ fontSize: 4, mb: 16 }}>
       I am Tushar Debnath a product designer & design technologist living in New
