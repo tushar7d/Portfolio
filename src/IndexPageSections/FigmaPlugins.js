@@ -4,24 +4,21 @@ import SectionList from "../components/SectionList";
 import SectionContainer from "../components/SectionContainer";
 import SectionListItem from "../components/SectionListItem";
 
-const PortfolioSection = () => (
+const FigmaPlugin = () => (
   <SectionContainer mt={50}>
-    <SectionList heading="Product Design">
+    <SectionList heading="Design Tools">
       <SectionListItem
-        heading="Expedia car rental listing card re-design"
-        sub="Showcase"
+        heading="Design Linter"
+        sub="Plugin"
       />
       <SectionListItem
-        heading="Hike Loyalty Program"
-        sub="Showcase"
+        heading="Color Pallete Generator"
+        sub="Plugin"
       />
-       <SectionListItem
-        heading="MakeMyTrip Search Widget"
-        sub="Showcase"
-      />
+       
       
     </SectionList>
   </SectionContainer>
 );
 
-export default PortfolioSection;
+export default FigmaPlugin;

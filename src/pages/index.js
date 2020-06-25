@@ -5,10 +5,10 @@ import Container from "../components/Container";
 import {
   AboutSection,
   WritingSection,
- 
+  PortfolioSection,
+  FigmaPlugin,
 } from "../IndexPageSections";
 import SectionContainer from "../components/SectionContainer";
-
 
 const IndexPage = () => (
   <React.Fragment>
@@ -22,6 +22,8 @@ const IndexPage = () => (
     <Container>
       <AboutSection />
       <WritingSection />
+      <FigmaPlugin />
+      <PortfolioSection />
     </Container>
   </React.Fragment>
 );
