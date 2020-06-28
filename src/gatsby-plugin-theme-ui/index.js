@@ -26,8 +26,8 @@ const theme = {
     text: {
       heading: {
         fontFamily: 'heading',
-        lineHeight: 'heading',
-        fontWeight: 'heading',
+        lineHeight: '3',
+        fontWeight: '500',
       },
     },
     styles: {
@@ -35,30 +35,38 @@ const theme = {
         fontFamily: 'body',
         lineHeight: 'body',
         fontWeight: 'body',
+        
       },
+      
       h1: {
         variant: 'text.heading',
         fontSize: 5,
+        
       },
       h2: {
         variant: 'text.heading',
         fontSize: 4,
+        
       },
       h3: {
         variant: 'text.heading',
         fontSize: 3,
+        
       },
       h4: {
         variant: 'text.heading',
         fontSize: 2,
+        
       },
       h5: {
         variant: 'text.heading',
         fontSize: 1,
+       
       },
       h6: {
         variant: 'text.heading',
         fontSize: 0,
+        
       },
       pre: {
         fontFamily: 'monospace',
