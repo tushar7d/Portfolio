@@ -26,15 +26,18 @@ const IndexPage = () => (
           ,
           "repeat(4, 1fr)",
         ],
-        gap: "10px",
+        gridGap: "10px",
         my: 50
       }}
     >
       <div
-        sx={{ gridArea: ["", "1 / 1 / 2 / 3"], minHeight: 200, bg: "#f6f6f6" }}
-      />
-      <div sx={{ height: 200, bg: "#f6f6f6" }} />
-      <div sx={{ height: 200, bg: "#f6f6f6" }} />
+        sx={{ gridArea: ["", "1 / 1 / 2 / 3"], minHeight: 300, bg: "#f6f6f6" }}
+      >
+      <div>Work Experience</div>
+      
+      </div>
+      <div sx={{  bg: "#f6f6f6" }} />
+      <div sx={{  bg: "#f6f6f6" }} />
       <div sx={{ height: 200, bg: "#f6f6f6" }} />
       <div sx={{ height: 200, bg: "#f6f6f6" }} />
       <div
