@@ -4,24 +4,30 @@ import React from "react";
 
 import Container from "../components/Container";
 
-
 const IndexPage = () => (
-    <Container>
-      <AboutSection />
-      <GridContainer>
-       <WorkExCard />
-       <WorkExCard />
-       <WorkExCard />
-       <WorkExCard />
-       <WorkExCard />
-       <WorkExCard />
-       <WorkExCard />
+  <Container>
+    <AboutSection />
+    <GridContainer>
+      <div >
+        <div sx={{ fontSize: 3, mb: 3, fontWeight:"bold" }}>Work Experience</div>
+        <div sx={{ fontSize: 3, mb: 2, }}>
+          I have been designing products as a proffesion for over 6 years over multiple products.
+        </div>
+        <div>Know More</div>
+      </div>
 
-      </GridContainer>
-    </Container>
-  );
+      <div >
+        <div sx={{ fontSize: 3, mb: 3, fontWeight:"bold" }}>Figma Plugin</div>
+        <div sx={{ fontSize: 3, mb: 2, }}>
+          I have been designing products as a proffesion for over 6 years over multiple products.
+        </div>
+        <div>Know More</div>
+      </div>
 
-  
+      
+    </GridContainer>
+  </Container>
+);
 
 const AboutSection = () => (
   <React.Fragment>
@@ -57,15 +63,10 @@ const GridContainer = (props) => (
   </div>
 );
 
-const WorkExCard = ()=>(
-    <div
-    sx={{  minHeight: 300, bg: "#f6f6f6" }}
-  >
+const WorkExCard = () => (
+  <div sx={{ minHeight: 300, bg: "#f6f6f6" }}>
     <div>Work Experience</div>
   </div>
-
-)
-
-
+);
 
 export default IndexPage;

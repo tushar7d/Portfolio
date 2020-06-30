@@ -6,6 +6,10 @@ const theme = {
       heading: 'inherit',
       monospace: 'Menlo, monospace',
     },
+
+    
+
+    boxShadow:["0 0px 2.5px -5px rgba(0, 0, 0, 0.02),0 0px 7px -5px rgba(0, 0, 0, 0.033),0 0px 16.9px -5px rgba(0, 0, 0, 0.048),0 0px 56px -5px rgba(0, 0, 0, 0.08)"],
     fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
     fontWeights: {
       body: 400,
