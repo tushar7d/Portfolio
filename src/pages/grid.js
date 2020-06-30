@@ -10,6 +10,13 @@ const IndexPage = () => (
       <AboutSection />
       <GridContainer>
        <WorkExCard />
+       <WorkExCard />
+       <WorkExCard />
+       <WorkExCard />
+       <WorkExCard />
+       <WorkExCard />
+       <WorkExCard />
+
       </GridContainer>
     </Container>
   );
@@ -39,7 +46,7 @@ const GridContainer = (props) => (
       gridTemplateColumns: [
         "repeat(1, 1fr)",
         "repeat(2, 1fr)",
-        "",
+        "repeat(2, 1fr)",
         "repeat(4, 1fr)",
       ],
       gridGap: "10px",
@@ -52,7 +59,7 @@ const GridContainer = (props) => (
 
 const WorkExCard = ()=>(
     <div
-    sx={{ gridArea: ["", "1 / 1 / 2 / 3"], minHeight: 300, bg: "#f6f6f6" }}
+    sx={{  minHeight: 300, bg: "#f6f6f6" }}
   >
     <div>Work Experience</div>
   </div>
