@@ -8,21 +8,10 @@ const IndexPage = () => (
   <Container>
     <AboutSection />
     <GridContainer>
-      <div >
-        <div sx={{ fontSize: 3, mb: 3, fontWeight:"bold" }}>Work Experience</div>
-        <div sx={{ fontSize: 3, mb: 2, }}>
-          I have been designing products as a proffesion for over 6 years over multiple products.
-        </div>
-        <div>Know More</div>
-      </div>
+      <div sx={{minHeight:300, bg:"#f5f5f5"}} />
+    
 
-      <div >
-        <div sx={{ fontSize: 3, mb: 3, fontWeight:"bold" }}>Figma Plugin</div>
-        <div sx={{ fontSize: 3, mb: 2, }}>
-          I have been designing products as a proffesion for over 6 years over multiple products.
-        </div>
-        <div>Know More</div>
-      </div>
+      
 
       
     </GridContainer>
