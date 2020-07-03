@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Container>
     <AboutSection />
     <GridContainer>
-      <div sx={{minHeight:300, bg:"#f5f5f5"}} />
+    <WorkExCard />
     
 
       
@@ -42,7 +42,7 @@ const GridContainer = (props) => (
         "repeat(1, 1fr)",
         "repeat(2, 1fr)",
         "repeat(2, 1fr)",
-        "repeat(4, 1fr)",
+        "repeat(3, 1fr)",
       ],
       gridGap: "10px",
       my: 50,
@@ -53,9 +53,14 @@ const GridContainer = (props) => (
 );
 
 const WorkExCard = () => (
-  <div sx={{ minHeight: 300, bg: "#f6f6f6" }}>
-    <div>Work Experience</div>
+  <div sx={{ minHeight: 300 }}>
+    <div sx={{fontSize:4, fontWeight:"bold", mb:12}} >Experience</div>
+    <div sx={{fontSize:4, }}>Expedia</div>
+    <div sx={{fontSize:2, }}>Curently</div>
+    
+    
   </div>
+  
 );
 
 export default IndexPage;
